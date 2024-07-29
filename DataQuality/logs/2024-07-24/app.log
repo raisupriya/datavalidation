@@ -1,0 +1,56 @@
+2024-07-24 19:42:46 - root - INFO - Reading configuration tables
+2024-07-24 19:42:46 - tableLogger - INFO - Reading configuration tables
+2024-07-24 19:42:54 - tableLogger - INFO - Configuration tables read successfully
+2024-07-24 19:42:54 - tableLogger - INFO - Processing mainconfig_table data
+2024-07-24 19:42:59 - tableLogger - INFO - Mainconfig_table data processed
+2024-07-24 19:42:59 - tableLogger - INFO - Processing dataquality_config_table data
+2024-07-24 19:42:59 - tableLogger - INFO - Dataquality_config_table data processed
+2024-07-24 19:42:59 - root - INFO - Configuration tables read successfully
+2024-07-24 19:42:59 - root - INFO - Reading target table: branches
+2024-07-24 19:42:59 - root - INFO - Target table branches read successfully
+2024-07-24 19:42:59 - root - INFO - Processing configuration with ConfigKey: 1
+2024-07-24 19:42:59 - root - INFO - Source Table: branches, Attribute Name: BranchName
+2024-07-24 19:42:59 - root - INFO - Starting validation check
+2024-07-24 19:43:05 - root - INFO - Writing output to table
+2024-07-24 19:43:05 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-24 19:43:05 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-24 19:43:11 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-24 19:43:11 - root - INFO - Output written successfully
+2024-07-24 19:43:11 - root - INFO - Validation check completed. Duration: 0:00:11.771047
+2024-07-24 19:43:11 - root - INFO - Logging audit entry
+2024-07-24 19:43:17 - root - INFO - Audit entry logged successfully
+2024-07-24 19:43:17 - root - INFO - Reading target table: loans
+2024-07-24 19:43:17 - root - INFO - Target table loans read successfully
+2024-07-24 19:43:17 - root - INFO - Processing configuration with ConfigKey: 2
+2024-07-24 19:43:17 - root - INFO - Source Table: loans, Attribute Name: LoanType
+2024-07-24 19:43:17 - root - INFO - Starting validation check
+2024-07-24 19:43:21 - root - INFO - Writing output to table
+2024-07-24 19:43:21 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-24 19:43:21 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-24 19:43:28 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-24 19:43:28 - root - INFO - Output written successfully
+2024-07-24 19:43:28 - root - INFO - Validation check completed. Duration: 0:00:10.814895
+2024-07-24 19:43:28 - root - INFO - Logging audit entry
+2024-07-24 19:43:34 - root - INFO - Audit entry logged successfully
+2024-07-24 19:43:34 - root - INFO - Reading target table: transactions
+2024-07-24 19:43:34 - root - INFO - Target table transactions read successfully
+2024-07-24 19:43:34 - root - INFO - Processing configuration with ConfigKey: 3
+2024-07-24 19:43:34 - root - INFO - Source Table: transactions, Attribute Name: AccountID
+2024-07-24 19:43:34 - root - INFO - Starting validation check
+2024-07-24 19:43:39 - root - INFO - Writing output to table
+2024-07-24 19:43:39 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-24 19:43:39 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-24 19:43:46 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-24 19:43:46 - root - INFO - Output written successfully
+2024-07-24 19:43:46 - root - INFO - Validation check completed. Duration: 0:00:11.617492
+2024-07-24 19:43:46 - root - INFO - Logging audit entry
+2024-07-24 19:43:52 - root - INFO - Audit entry logged successfully
+2024-07-24 19:43:52 - root - INFO - Reading target table: Employees
+2024-07-24 19:43:52 - root - INFO - Target table Employees read successfully
+2024-07-24 19:43:52 - root - INFO - Processing configuration with ConfigKey: 4
+2024-07-24 19:43:52 - root - INFO - Source Table: Employees, Attribute Name: NA
+2024-07-24 19:43:52 - root - INFO - Starting validation check
+2024-07-24 19:43:52 - root - ERROR - Error occurred: Unsupported validation type: custom_check
+2024-07-24 19:43:59 - root - INFO - Stopping SparkSession
+2024-07-24 19:44:00 - root - INFO - SparkSession stopped
+2024-07-24 19:44:00 - py4j.clientserver - INFO - Closing down clientserver connection

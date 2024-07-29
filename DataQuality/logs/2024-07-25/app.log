@@ -1,0 +1,235 @@
+2024-07-25 11:42:14 - root - INFO - Reading configuration tables
+2024-07-25 11:42:14 - tableLogger - INFO - Reading configuration tables
+2024-07-25 11:42:22 - tableLogger - INFO - Configuration tables read successfully
+2024-07-25 11:42:22 - tableLogger - INFO - Processing mainconfig_table data
+2024-07-25 11:42:30 - tableLogger - INFO - Mainconfig_table data processed
+2024-07-25 11:42:30 - tableLogger - INFO - Processing dataquality_config_table data
+2024-07-25 11:42:30 - tableLogger - INFO - Dataquality_config_table data processed
+2024-07-25 11:42:30 - root - INFO - Configuration tables read successfully
+2024-07-25 11:42:30 - root - INFO - Reading target table: branches
+2024-07-25 11:42:30 - root - INFO - Target table branches read successfully
+2024-07-25 11:42:30 - root - INFO - Processing configuration with ConfigKey: 1
+2024-07-25 11:42:30 - root - INFO - Source Table: branches, Attribute Name: BranchName
+2024-07-25 11:42:30 - root - INFO - Starting validation check
+2024-07-25 11:42:37 - root - INFO - Null check performed and table branches updated.
+2024-07-25 11:42:37 - root - INFO - Writing output to table
+2024-07-25 11:42:37 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-25 11:42:38 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-25 11:42:50 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-25 11:42:50 - root - INFO - Output written successfully
+2024-07-25 11:42:50 - root - INFO - Validation check completed. Duration: 0:00:19.908375
+2024-07-25 11:42:50 - root - INFO - Logging audit entry
+2024-07-25 11:43:07 - root - INFO - Audit entry logged successfully
+2024-07-25 11:43:07 - root - INFO - Reading target table: loans
+2024-07-25 11:43:08 - root - INFO - Target table loans read successfully
+2024-07-25 11:43:08 - root - INFO - Processing configuration with ConfigKey: 2
+2024-07-25 11:43:08 - root - INFO - Source Table: loans, Attribute Name: LoanType
+2024-07-25 11:43:08 - root - INFO - Starting validation check
+2024-07-25 11:43:19 - root - INFO - Writing output to table
+2024-07-25 11:43:19 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-25 11:43:20 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-25 11:43:27 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-25 11:43:27 - root - INFO - Output written successfully
+2024-07-25 11:43:27 - root - INFO - Validation check completed. Duration: 0:00:19.766553
+2024-07-25 11:43:27 - root - INFO - Logging audit entry
+2024-07-25 11:43:34 - root - INFO - Audit entry logged successfully
+2024-07-25 11:43:34 - root - INFO - Reading target table: transactions
+2024-07-25 11:43:35 - root - INFO - Target table transactions read successfully
+2024-07-25 11:43:35 - root - INFO - Processing configuration with ConfigKey: 3
+2024-07-25 11:43:35 - root - INFO - Source Table: transactions, Attribute Name: AccountID
+2024-07-25 11:43:35 - root - INFO - Starting validation check
+2024-07-25 11:43:44 - root - INFO - Writing output to table
+2024-07-25 11:43:44 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-25 11:43:44 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-25 11:43:51 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-25 11:43:51 - root - INFO - Output written successfully
+2024-07-25 11:43:51 - root - INFO - Validation check completed. Duration: 0:00:16.836552
+2024-07-25 11:43:51 - root - INFO - Logging audit entry
+2024-07-25 11:43:57 - root - INFO - Audit entry logged successfully
+2024-07-25 11:43:57 - root - INFO - Reading target table: Employees
+2024-07-25 11:43:57 - root - INFO - Target table Employees read successfully
+2024-07-25 11:43:57 - root - INFO - Processing configuration with ConfigKey: 4
+2024-07-25 11:43:57 - root - INFO - Source Table: Employees, Attribute Name: NA
+2024-07-25 11:43:57 - root - INFO - Starting validation check
+2024-07-25 11:43:57 - root - ERROR - Error occurred: Unsupported validation type: custom_check
+2024-07-25 11:44:03 - root - INFO - Stopping SparkSession
+2024-07-25 11:44:04 - root - INFO - SparkSession stopped
+2024-07-25 11:44:04 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-07-25 12:22:33 - root - INFO - Reading configuration tables
+2024-07-25 12:22:33 - tableLogger - INFO - Reading configuration tables
+2024-07-25 12:22:40 - tableLogger - INFO - Configuration tables read successfully
+2024-07-25 12:22:40 - tableLogger - INFO - Processing mainconfig_table data
+2024-07-25 12:22:51 - tableLogger - INFO - Mainconfig_table data processed
+2024-07-25 12:22:51 - tableLogger - INFO - Processing dataquality_config_table data
+2024-07-25 12:22:52 - tableLogger - INFO - Dataquality_config_table data processed
+2024-07-25 12:22:52 - root - INFO - Configuration tables read successfully
+2024-07-25 12:22:52 - root - INFO - Reading target table: branches
+2024-07-25 12:22:52 - root - INFO - Target table branches read successfully
+2024-07-25 12:22:52 - root - INFO - Processing configuration with ConfigKey: 1
+2024-07-25 12:22:52 - root - INFO - Table: branches, Attribute/Column Name: BranchName
+2024-07-25 12:22:52 - root - INFO - Starting validation check
+2024-07-25 12:23:01 - root - INFO - Null check performed and table branches updated.
+2024-07-25 12:23:01 - root - INFO - Writing output to table
+2024-07-25 12:23:01 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-25 12:23:02 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-25 12:23:11 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-25 12:23:11 - root - INFO - Output written successfully
+2024-07-25 12:23:11 - root - INFO - Validation check completed. Duration: 0:00:19.030226
+2024-07-25 12:23:11 - root - INFO - Logging audit entry
+2024-07-25 12:23:20 - root - INFO - Audit entry logged successfully
+2024-07-25 12:23:20 - root - INFO - Reading target table: loans
+2024-07-25 12:23:21 - root - INFO - Target table loans read successfully
+2024-07-25 12:23:21 - root - INFO - Processing configuration with ConfigKey: 2
+2024-07-25 12:23:21 - root - INFO - Table: loans, Attribute/Column Name: LoanType
+2024-07-25 12:23:21 - root - INFO - Starting validation check
+2024-07-25 12:23:36 - root - INFO - Writing output to table
+2024-07-25 12:23:36 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-25 12:23:37 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-25 12:23:51 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-25 12:23:51 - root - INFO - Output written successfully
+2024-07-25 12:23:51 - root - INFO - Validation check completed. Duration: 0:00:30.187239
+2024-07-25 12:23:51 - root - INFO - Logging audit entry
+2024-07-25 12:24:03 - root - INFO - Audit entry logged successfully
+2024-07-25 12:24:03 - root - INFO - Reading target table: transactions
+2024-07-25 12:24:03 - root - INFO - Target table transactions read successfully
+2024-07-25 12:24:03 - root - INFO - Processing configuration with ConfigKey: 3
+2024-07-25 12:24:03 - root - INFO - Table: transactions, Attribute/Column Name: AccountID
+2024-07-25 12:24:03 - root - INFO - Starting validation check
+2024-07-25 12:24:11 - root - INFO - Writing output to table
+2024-07-25 12:24:11 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-25 12:24:11 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-25 12:24:17 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-25 12:24:17 - root - INFO - Output written successfully
+2024-07-25 12:24:17 - root - INFO - Validation check completed. Duration: 0:00:14.857618
+2024-07-25 12:24:17 - root - INFO - Logging audit entry
+2024-07-25 12:24:23 - root - INFO - Audit entry logged successfully
+2024-07-25 12:24:23 - root - INFO - Reading target table: customers
+2024-07-25 12:24:23 - root - INFO - Target table customers read successfully
+2024-07-25 12:24:23 - root - INFO - Processing configuration with ConfigKey: 4
+2024-07-25 12:24:23 - root - INFO - Table: customers, Attribute/Column Name: Email
+2024-07-25 12:24:23 - root - INFO - Starting validation check
+2024-07-25 12:24:25 - root - ERROR - Error occurred: 'int' object has no attribute 'show'
+2024-07-25 12:24:31 - root - INFO - Stopping SparkSession
+2024-07-25 12:24:32 - root - INFO - SparkSession stopped
+2024-07-25 12:24:32 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-07-25 12:27:36 - root - INFO - Reading configuration tables
+2024-07-25 12:27:36 - tableLogger - INFO - Reading configuration tables
+2024-07-25 12:27:45 - tableLogger - INFO - Configuration tables read successfully
+2024-07-25 12:27:45 - tableLogger - INFO - Processing mainconfig_table data
+2024-07-25 12:27:50 - tableLogger - INFO - Mainconfig_table data processed
+2024-07-25 12:27:50 - tableLogger - INFO - Processing dataquality_config_table data
+2024-07-25 12:27:50 - tableLogger - INFO - Dataquality_config_table data processed
+2024-07-25 12:27:50 - root - INFO - Configuration tables read successfully
+2024-07-25 12:27:50 - root - INFO - Reading target table: branches
+2024-07-25 12:27:50 - root - INFO - Target table branches read successfully
+2024-07-25 12:27:50 - root - INFO - Processing configuration with ConfigKey: 1
+2024-07-25 12:27:50 - root - INFO - Table: branches, Attribute/Column Name: BranchName
+2024-07-25 12:27:50 - root - INFO - Starting validation check
+2024-07-25 12:27:55 - root - INFO - Null check performed and table branches updated.
+2024-07-25 12:27:55 - root - INFO - Writing output to table
+2024-07-25 12:27:55 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-25 12:27:56 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-25 12:28:06 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-25 12:28:06 - root - INFO - Output written successfully
+2024-07-25 12:28:06 - root - INFO - Validation check completed. Duration: 0:00:15.931514
+2024-07-25 12:28:06 - root - INFO - Logging audit entry
+2024-07-25 12:28:13 - root - INFO - Audit entry logged successfully
+2024-07-25 12:28:13 - root - INFO - Reading target table: loans
+2024-07-25 12:28:13 - root - INFO - Target table loans read successfully
+2024-07-25 12:28:13 - root - INFO - Processing configuration with ConfigKey: 2
+2024-07-25 12:28:13 - root - INFO - Table: loans, Attribute/Column Name: LoanType
+2024-07-25 12:28:13 - root - INFO - Starting validation check
+2024-07-25 12:28:18 - root - INFO - Writing output to table
+2024-07-25 12:28:18 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-25 12:28:18 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-25 12:28:24 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-25 12:28:24 - root - INFO - Output written successfully
+2024-07-25 12:28:24 - root - INFO - Validation check completed. Duration: 0:00:10.751026
+2024-07-25 12:28:24 - root - INFO - Logging audit entry
+2024-07-25 12:28:30 - root - INFO - Audit entry logged successfully
+2024-07-25 12:28:30 - root - INFO - Reading target table: transactions
+2024-07-25 12:28:30 - root - INFO - Target table transactions read successfully
+2024-07-25 12:28:30 - root - INFO - Processing configuration with ConfigKey: 3
+2024-07-25 12:28:30 - root - INFO - Table: transactions, Attribute/Column Name: AccountID
+2024-07-25 12:28:30 - root - INFO - Starting validation check
+2024-07-25 12:28:33 - root - INFO - Writing output to table
+2024-07-25 12:28:33 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-25 12:28:33 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-25 12:28:40 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-25 12:28:40 - root - INFO - Output written successfully
+2024-07-25 12:28:40 - root - INFO - Validation check completed. Duration: 0:00:09.788596
+2024-07-25 12:28:40 - root - INFO - Logging audit entry
+2024-07-25 12:28:46 - root - INFO - Audit entry logged successfully
+2024-07-25 12:28:46 - root - INFO - Reading target table: customers
+2024-07-25 12:28:46 - root - INFO - Target table customers read successfully
+2024-07-25 12:28:46 - root - INFO - Processing configuration with ConfigKey: 4
+2024-07-25 12:28:46 - root - INFO - Table: customers, Attribute/Column Name: Email
+2024-07-25 12:28:46 - root - INFO - Starting validation check
+2024-07-25 12:28:53 - root - ERROR - Error occurred: too many values to unpack (expected 2)
+2024-07-25 12:29:02 - root - INFO - Stopping SparkSession
+2024-07-25 12:29:03 - root - INFO - SparkSession stopped
+2024-07-25 12:29:03 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-07-25 12:30:27 - root - INFO - Reading configuration tables
+2024-07-25 12:30:27 - tableLogger - INFO - Reading configuration tables
+2024-07-25 12:30:33 - tableLogger - INFO - Configuration tables read successfully
+2024-07-25 12:30:33 - tableLogger - INFO - Processing mainconfig_table data
+2024-07-25 12:30:38 - tableLogger - INFO - Mainconfig_table data processed
+2024-07-25 12:30:38 - tableLogger - INFO - Processing dataquality_config_table data
+2024-07-25 12:30:38 - tableLogger - INFO - Dataquality_config_table data processed
+2024-07-25 12:30:38 - root - INFO - Configuration tables read successfully
+2024-07-25 12:30:38 - root - INFO - Reading target table: branches
+2024-07-25 12:30:38 - root - INFO - Target table branches read successfully
+2024-07-25 12:30:38 - root - INFO - Processing configuration with ConfigKey: 1
+2024-07-25 12:30:38 - root - INFO - Table: branches, Attribute/Column Name: BranchName
+2024-07-25 12:30:38 - root - INFO - Starting validation check
+2024-07-25 12:30:42 - root - INFO - Null check performed and table branches updated.
+2024-07-25 12:30:42 - root - INFO - Writing output to table
+2024-07-25 12:30:42 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-25 12:30:42 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-25 12:30:54 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-25 12:30:54 - root - INFO - Output written successfully
+2024-07-25 12:30:54 - root - INFO - Validation check completed. Duration: 0:00:15.466974
+2024-07-25 12:30:54 - root - INFO - Logging audit entry
+2024-07-25 12:31:00 - root - INFO - Audit entry logged successfully
+2024-07-25 12:31:00 - root - INFO - Reading target table: loans
+2024-07-25 12:31:00 - root - INFO - Target table loans read successfully
+2024-07-25 12:31:00 - root - INFO - Processing configuration with ConfigKey: 2
+2024-07-25 12:31:00 - root - INFO - Table: loans, Attribute/Column Name: LoanType
+2024-07-25 12:31:00 - root - INFO - Starting validation check
+2024-07-25 12:31:03 - root - INFO - Writing output to table
+2024-07-25 12:31:03 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-25 12:31:03 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-25 12:31:09 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-25 12:31:09 - root - INFO - Output written successfully
+2024-07-25 12:31:09 - root - INFO - Validation check completed. Duration: 0:00:08.993266
+2024-07-25 12:31:09 - root - INFO - Logging audit entry
+2024-07-25 12:31:15 - root - INFO - Audit entry logged successfully
+2024-07-25 12:31:15 - root - INFO - Reading target table: transactions
+2024-07-25 12:31:15 - root - INFO - Target table transactions read successfully
+2024-07-25 12:31:15 - root - INFO - Processing configuration with ConfigKey: 3
+2024-07-25 12:31:15 - root - INFO - Table: transactions, Attribute/Column Name: AccountID
+2024-07-25 12:31:15 - root - INFO - Starting validation check
+2024-07-25 12:31:18 - root - INFO - Writing output to table
+2024-07-25 12:31:18 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-25 12:31:18 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-25 12:31:25 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-25 12:31:25 - root - INFO - Output written successfully
+2024-07-25 12:31:25 - root - INFO - Validation check completed. Duration: 0:00:09.360325
+2024-07-25 12:31:25 - root - INFO - Logging audit entry
+2024-07-25 12:31:30 - root - INFO - Audit entry logged successfully
+2024-07-25 12:31:30 - root - INFO - Reading target table: customers
+2024-07-25 12:31:30 - root - INFO - Target table customers read successfully
+2024-07-25 12:31:30 - root - INFO - Processing configuration with ConfigKey: 4
+2024-07-25 12:31:30 - root - INFO - Table: customers, Attribute/Column Name: Email
+2024-07-25 12:31:30 - root - INFO - Starting validation check
+2024-07-25 12:31:35 - root - INFO - Writing output to table
+2024-07-25 12:31:35 - tableLogger - INFO - Creating DataFrame for output data.
+2024-07-25 12:31:35 - tableLogger - INFO - Writing the result to dataquality_outputtable.
+2024-07-25 12:31:40 - tableLogger - INFO - Successfully wrote data to dataquality_outputtable.
+2024-07-25 12:31:40 - root - INFO - Output written successfully
+2024-07-25 12:31:40 - root - INFO - Validation check completed. Duration: 0:00:10.280616
+2024-07-25 12:31:40 - root - INFO - Logging audit entry
+2024-07-25 12:31:45 - root - INFO - Audit entry logged successfully
+2024-07-25 12:31:45 - root - INFO - Stopping SparkSession
+2024-07-25 12:31:46 - root - INFO - SparkSession stopped
+2024-07-25 12:31:46 - py4j.clientserver - INFO - Closing down clientserver connection
