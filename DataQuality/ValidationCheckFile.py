@@ -1,7 +1,3 @@
-'''
-import os
-os.environ['PYSPARK_PYTHON'] = 'C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe'
-'''
 import logging
 import colorlog
 from pyspark.sql import SparkSession
